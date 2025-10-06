@@ -18,8 +18,10 @@ src/
 
 ## How to run
 1. Create `.env` file:
+```
 MicrosoftAppId=<your_bot_app_id>
 MicrosoftAppPassword=<your_bot_password>
+```
 
 2. Install dependencies:
 ```bash
