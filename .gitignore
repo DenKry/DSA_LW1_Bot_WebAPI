@@ -1,4 +1,5 @@
 
+.github/workflows
 .vscode/
 __pycache__/
 *.log

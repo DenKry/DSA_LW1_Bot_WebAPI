@@ -1,7 +1,7 @@
 
 import httpx
 import asyncio
-from config import DIRECTLINE_SECRET, DIRECTLINE_BASE
+from src.config import DIRECTLINE_SECRET, DIRECTLINE_BASE
 
 SECRET_TOKEN = DIRECTLINE_SECRET
 

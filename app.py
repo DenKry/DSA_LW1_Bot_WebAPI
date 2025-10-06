@@ -14,9 +14,9 @@ from botbuilder.schema import Activity
 
 load_dotenv()
 
-from models import Job, NewJob, State
-from store_rate_limit import store, RATE_SECONDS, _now, _retry_after, next_allowed
-from service import call_azure_bot
+from src.models import Job, NewJob, State
+from src.store_rate_limit import store, RATE_SECONDS, _now, _retry_after, next_allowed
+from src.service import call_azure_bot
 
 
 APP_ID = os.getenv("MicrosoftAppId")

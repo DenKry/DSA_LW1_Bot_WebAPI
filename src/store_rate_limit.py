@@ -2,7 +2,7 @@
 from datetime import datetime, timezone
 from typing import Dict
 
-from models import Job
+from .models import Job
 
 RATE_SECONDS = 30
 store: Dict[str, Job] = {}
